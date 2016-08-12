@@ -1,7 +1,7 @@
 {
     "container": {
         "docker": {
-            "image": "mesosphere/cd-demo-app:latest",
+            "image": "eanest/mesos:latest",
             "network": "BRIDGE",
             "portMappings": [
                 {
@@ -25,11 +25,6 @@
     ],
     "id": "cd-demo-app",
     "instances": 1,
-    "labels": {
-        "HAPROXY_0_VHOST": "sunil-30e-publicsl-b34a2yhj5mmu-601236417.us-west-2.elb.amazonaws.com",
-        "HAPROXY_GROUP": "external",
-        "lastChangedBy": "sunil@mesosphere.io"
-    },
     "mem": 128,
     "upgradeStrategy": {
         "minimumHealthCapacity": 0
