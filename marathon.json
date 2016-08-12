@@ -23,7 +23,7 @@
             "timeoutSeconds": 10
         }
     ],
-    "id": "cd-demo-app",
+    "id": "cd-demo-app1",
     "instances": 1,
     "mem": 128,
     "upgradeStrategy": {
